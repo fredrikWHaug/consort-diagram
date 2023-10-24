@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "consort-diagram"
+version = "0.1.0"
+authors = [
+  { name="Tom Pollard", email="tpollard@mit.edu" },
+  { name="Fredrik Willumsen Haug", email="fredrik_willumsenhaug@college.harvard.edu"},
+]
+license = {file = "LICENSE"}
+description = "consort-diagram is a package for creating a flow chart of the distribution of demographics in a patient population."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords=["Consort diagram", "statistics", "cohort", "clinical research"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib"
+]
+
+[tool.black]
+line-length = 119
+
+[tool.pyright]
+reportMissingImports = true
+
+[project.urls]
+homepage = "https://github.com/fredrikWHaug/consort-diagram"
+documentation = "-"
+repository = "https://github.com/fredrikWHaug/consort-diagram"

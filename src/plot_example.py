@@ -1,6 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
+# jupyter notebook specific setting
 #config InlineBackend.figure_format = 'retina'
+
+# line 10 through 36 is example data frame
+# declaration and plot color definitions
+
 # Data dictionaries
 racial_data = {
     'Black': [10.8, 10.8, 10.8, 10 ,10, 11.8],

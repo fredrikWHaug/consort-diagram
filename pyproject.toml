@@ -10,7 +10,7 @@ authors = [
   { name="Fredrik Willumsen Haug", email="fredrik_willumsenhaug@college.harvard.edu"},
 ]
 license = {file = "LICENSE"}
-description = "consort-diagram is a package for creating a flow chart of the distribution of demographics in a patient population."
+description = "consort-diagram is a package for creating a flow chart of the exclusion criteria with a distribution of demographics in a patient population."
 readme = "README.md"
 requires-python = ">=3.9"
 keywords=["Consort diagram", "statistics", "cohort", "clinical research"]
@@ -33,5 +33,5 @@ reportMissingImports = true
 
 [project.urls]
 homepage = "https://github.com/fredrikWHaug/consort-diagram"
-documentation = "-"
+documentation = ""
 repository = "https://github.com/fredrikWHaug/consort-diagram"
